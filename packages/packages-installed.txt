@@ -1,0 +1,7 @@
+git
+fastfetch
+hyprlock
+hypridle
+hyprshot
+hyprpaper
+waybar
