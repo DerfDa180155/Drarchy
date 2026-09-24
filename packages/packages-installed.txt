@@ -1,7 +1,10 @@
 git
 fastfetch
+hyprland
 hyprlock
 hypridle
 hyprshot
 hyprpaper
+wofi
+kitty
 waybar
