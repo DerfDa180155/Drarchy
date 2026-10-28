@@ -1,10 +1,14 @@
+-----------------
+---- LAYOUTS ----
+-----------------
+
 hl.config({
     general = {
         layout = "dwindle"
     },
 
     dwindle = {
-        preserve_split = true, -- You probably want this
+        preserve_split = true,
     },
 
     master = {

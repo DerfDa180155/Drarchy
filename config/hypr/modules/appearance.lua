@@ -1,3 +1,9 @@
+--------------------
+---- APPEARANCE ----
+--------------------
+
+local colors = require("theme.colors")
+
 hl.config({
     general = {
         gaps_in  = 5,
@@ -6,8 +12,15 @@ hl.config({
         border_size = 2,
 
         col = {
-            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
-          inactive_border = "rgba(595959aa)",
+            active_border = { 
+                colors = {
+                    "rgba(" .. colors.primary .. "ee)",
+                    "rgba(" .. colors.secondary .. "ee)"
+                },
+                angle = 45 
+            },
+            
+            inactive_border = "rgba(" .. colors.border_inactive .. "aa)",
         },
 
         resize_on_border = false,

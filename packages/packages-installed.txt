@@ -8,3 +8,8 @@ hyprpaper
 wofi
 kitty
 waybar
+flatpak
+firefox
+ttf-jetbrains-mono-nerd
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
