@@ -1,0 +1,43 @@
+# ----------------------------
+# ---- DRARCHY - STARSHIP ----
+# ----------------------------
+
+add_newline = true
+
+format = '$username[@](fg:#9AA9C3)$hostname $directory$git_branch$git_status$line_break$character'
+
+# Username
+[username]
+show_always = true
+style_user = "fg:#53D6A5"
+style_root = "bold fg:#FF6B84"
+format = '[$user]($style)'
+
+# Hostname
+[hostname]
+ssh_only = false
+style = "fg:#53D6A5"
+format = '[$hostname]($style)'
+
+# Directory
+[directory]
+style = "fg:#9AA9C3"
+format = '[$path]($style) '
+truncation_length = 3
+truncate_to_repo = false
+
+# Git Branch
+[git_branch]
+symbol = " "
+style = "fg:#A78BFA"
+format = '[$symbol$branch]($style) '
+
+# Git Status
+[git_status]
+style = "fg:#F4C46A"
+format = '([$all_status$ahead_behind]($style) )'
+
+# Prompt Arrow
+[character]
+success_symbol = '[❯](bold fg:#61D6FF)'
+error_symbol = '[❯](bold fg:#FF6B84)'
