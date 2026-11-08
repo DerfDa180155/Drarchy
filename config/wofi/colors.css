@@ -1,0 +1,17 @@
+@define-color background      rgba(11, 16, 32, 0.85);
+@define-color surface         rgba(21, 27, 46, 0.80);
+@define-color surface_alt     rgba(29, 38, 59, 0.75);
+
+@define-color primary         #61D6FF;
+@define-color secondary       #A78BFA;
+
+@define-color text            #ECF3FF;
+@define-color text_muted      #9AA9C3;
+
+@define-color border_active   #61D6FF;
+@define-color border_inactive #344158;
+
+@define-color success         #53D6A5;
+@define-color warning         #F4C46A;
+@define-color error           #FF6B84;
+

@@ -1,0 +1,25 @@
+# -------------------------------
+# ---- DRARCHY - WOFI CONFIG ----
+# -------------------------------
+
+# Mode
+show=drun
+
+# Window
+width=560
+height=450
+location?center
+
+# Search
+prompt=Search Apps...
+matching=fuzzy
+insensitive=true
+
+# Appearance
+gtk_dark=true
+allow_images=true
+image_size=28
+hide_scroll=true
+
+# Terminal
+term=kitty

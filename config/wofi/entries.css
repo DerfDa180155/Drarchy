@@ -1,0 +1,33 @@
+/* --------------------------------
+   ---- DRARCHY - WOFI ENTRIES ----
+   -------------------------------- */
+
+/* Normal entry */
+#entry {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px 0;
+}
+
+/* Selected entry */
+#entry:selected {
+    background-color: @surface_alt;
+    border-left: 3px solid @primary;
+}
+
+/* Entry text */
+#text {
+    color: @text;
+    margin-left: 8px;
+}
+
+/* Selected entry text */
+#entry:selected #text {
+    color: @primary;
+}
+
+/* Application icons */
+#img {
+    margin-right: 8px;
+}

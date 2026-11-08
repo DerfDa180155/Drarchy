@@ -4,7 +4,7 @@
 
 local terminal    = "kitty"
 local fileManager = "dolphin"
-local menu        = "wofi --show=drun"
+local menu        = [[sh -c 'cd "$HOME/.config/wofi" && exec wofi --show=drun']]
 
 local mainMod = "SUPER"
 

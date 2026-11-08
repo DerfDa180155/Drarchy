@@ -1,0 +1,46 @@
+/* ------------------------------
+   ---- DRARCHY - WOFI STYLE ----
+   ------------------------------ */
+
+@import url("colors.css");
+@import url("entries.css");
+
+/* Main window */
+#window {
+    background-color: @background;
+    color: @text;
+
+    border: 2px solid @border_active;
+    border-radius: 14px;
+
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+
+/* Main container */
+#outer-box {
+    padding: 14px;
+}
+
+/* Search input */
+#input {
+    background-color: @surface;
+    color: @text;
+
+    border: 1px solid @border_inactive;
+    border-radius: 10px;
+
+    padding: 12px;
+    margin-bottom: 10px;
+
+    box-shadow: none;
+}
+
+/* Results container */
+#scroll {
+    background-color: transparent;
+}
+
+#inner-box {
+    background-color: transparent;
+}
