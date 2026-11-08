@@ -1,0 +1,17 @@
+{
+    "custom/launcher": {
+        "format": "󰣇",
+        "tooltip": false,
+        "on-click": "sh -c 'cd \"$HOME/.config/wofi\" && exec wofi --show drun'"
+    },
+    "custom/lock": {
+        "format": "󰌾",
+        "tooltip": "Lock Screen",
+        "on-click": "hyprlock"
+    },
+    "custom/power": {
+        "format": "",
+        "tooltip": "Power Menu",
+        "on-click": "wlogout"
+    }
+}

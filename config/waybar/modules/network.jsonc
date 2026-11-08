@@ -1,0 +1,9 @@
+{
+    "network": {
+        "interval": 5,
+        "format-wifi": "󰤨 {signalStrength}%",
+        "format-ethernet": "󰈀 LAN",
+        "format-disconnected": "󰤭 Offline",
+        "tooltip-format": "{ifname}: {ipaddr}"
+    }
+}

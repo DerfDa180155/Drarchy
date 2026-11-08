@@ -1,0 +1,16 @@
+#cpu { color: @secondary; }
+#memory { color: @primary; }
+#network { color: @text; }
+#network.disconnected { color: @error; }
+#pulseaudio { color: @primary; }
+#pulseaudio.muted { color: @text_muted; }
+#battery { color: @success; }
+#battery.warning { color: @warning; }
+#battery.critical { color: @error; }
+#bluetooth { color: @secondary; }
+#backlight { color: @warning; }
+#temperature { color: @warning; }
+#temperature.critical { color: @error; }
+#disk { color: @text_muted; }
+#idle_inhibitor { color: @secondary; }
+#idle_inhibitor.activated { color: @success; }

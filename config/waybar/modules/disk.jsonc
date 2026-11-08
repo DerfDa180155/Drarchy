@@ -1,0 +1,7 @@
+{
+    "disk": {
+        "interval": 30,
+        "path": "/",
+        "format": " {percentage_used}%"
+    }
+}

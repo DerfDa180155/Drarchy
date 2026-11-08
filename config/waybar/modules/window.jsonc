@@ -1,0 +1,8 @@
+{
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 35,
+        "separate-outputs": true,
+        "tooltip": false
+    }
+}

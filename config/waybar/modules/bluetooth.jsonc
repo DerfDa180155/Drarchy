@@ -1,0 +1,8 @@
+{
+    "bluetooth": {
+        "format": "",
+        "format-connected": " {num_connections}",
+        "format-disabled": "󰂲",
+        "tooltip": true
+    }
+}

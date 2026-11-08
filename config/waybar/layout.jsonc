@@ -1,0 +1,22 @@
+// ---------------------------------
+// ---- DRARCHY - WAYBAR LAYOUT ----
+// ---------------------------------
+
+{
+    "modules-left": [
+        "custom/launcher",
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "network",
+        "pulseaudio",
+        "tray",
+        "custom/power"
+    ]
+}

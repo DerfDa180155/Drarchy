@@ -1,0 +1,7 @@
+{
+    "temperature": {
+        "interval": 10,
+        "format": " {temperatureC}°C",
+        "critical-threshold": 85
+    }
+}

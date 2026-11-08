@@ -1,0 +1,11 @@
+#custom-launcher {
+    background-color: @surface_alt_transparent;
+    color: @primary;
+    font-size: 17px;
+    padding: 0 13px;
+}
+#custom-lock { color: @secondary; }
+#custom-power { color: @error; }
+#custom-launcher:hover, #custom-lock:hover, #custom-power:hover {
+    background-color: @surface_alt;
+}

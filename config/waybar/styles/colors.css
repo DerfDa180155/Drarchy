@@ -1,0 +1,16 @@
+@define-color background #0B1020;
+@define-color surface #151B2E;
+@define-color surface_alt #1D263B;
+@define-color primary #61D6FF;
+@define-color secondary #A78BFA;
+@define-color text #ECF3FF;
+@define-color text_muted #9AA9C3;
+@define-color border_active #61D6FF;
+@define-color border_inactive #344158;
+@define-color success #53D6A5;
+@define-color warning #F4C46A;
+@define-color error #FF6B84;
+
+@define-color background_transparent alpha(@background, 0.90);
+@define-color surface_transparent alpha(@surface, 0.82);
+@define-color surface_alt_transparent alpha(@surface_alt, 0.84);

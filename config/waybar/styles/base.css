@@ -1,0 +1,37 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: @background_transparent;
+    color: @text;
+    border-bottom: 1px solid @border_inactive;
+}
+
+.modules-left, .modules-center, .modules-right {
+    margin: 0 6px;
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #battery,
+#bluetooth, #backlight, #temperature, #disk, #idle_inhibitor,
+#tray, #custom-launcher, #custom-lock, #custom-power, #window {
+    color: @text;
+    background-color: @surface_transparent;
+    margin: 5px 2px;
+    padding: 0 11px;
+    border-radius: 10px;
+}
+
+tooltip {
+    background-color: @surface;
+    border: 1px solid @border_inactive;
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: @text;
+    padding: 3px;
+}

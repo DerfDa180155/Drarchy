@@ -1,0 +1,6 @@
+#clock {
+    color: @primary;
+    font-weight: 700;
+    padding-left: 14px;
+    padding-right: 14px;
+}
